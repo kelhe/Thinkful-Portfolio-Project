@@ -9,6 +9,10 @@ font-size: 40px;
 line-height:1px;
 }
 
+header img {
+  align:left;
+}
+
 .circle-icon {
   width:75px;
   border-radius: 50%; 
