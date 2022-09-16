@@ -3,7 +3,7 @@ background-color:#dee6dc;
 }
 
 h1,h2,nav {
-color: #a84040;
+color: #521010;
 font-family:Trirong, Arial, serif;
 font-size: 40px;
 line-height:1px;
@@ -12,7 +12,7 @@ line-height:1px;
 .circle-icon {
   width:75px;
   border-radius: 50%; 
-  align:left; /* this pushes the icon to the left of secure next to the name */
+  align:"left"; /* this pushes the icon to the left of secure next to the name */
 }
 
 h2{
@@ -21,7 +21,7 @@ font-size:10px;
 
 .box{
   width:auto;
-  background-color:#93bf86;
+  background-color:#9cba8f;
   margin:10px;
   padding:5px 20px 5px 15px; 
 }
@@ -38,6 +38,19 @@ nav{
   top:-10px;
 } 
 
+a:link{
+  color:#521010;
+}
+a:visited{
+  color:#00eaff;
+}
+a:hover{
+  color:#cc00ff;
+}
+a:active{
+  color:#2b00ff;
+}
+
 p,li,h3
 {
   font-family: Oxygen, serif;
@@ -47,6 +60,10 @@ p,li,h3
 h3{
   text-align:center;
   font-size: 20px;
+}
+/* makes this header stand out from the rest of the h3 */
+article div h3 {
+  font-size:30px;
 }
 
 footer{
