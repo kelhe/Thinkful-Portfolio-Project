@@ -8,6 +8,10 @@ font-family:Trirong, Arial, serif;
 font-size: 40px;
 line-height:1px;
 }
+/*small font size needs a more contrasting color to be seen */
+h2{
+  color: #ffffff;
+}
 
 header img {
   align:left;
