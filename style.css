@@ -14,13 +14,12 @@ h2{
 }
 
 header img {
-  align:left;
+  align:left; /* this pushes the icon to the left of secure next to the name */
 }
 
 .circle-icon {
   width:75px;
   border-radius: 50%; 
-  align:"left"; /* this pushes the icon to the left of secure next to the name */
 }
 
 h2{
