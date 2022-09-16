@@ -14,12 +14,12 @@ h2{
 }
 
 header img {
-  align:left; /* this pushes the icon to the left of secure next to the name */
+ float: left; /* this pushes the icon to the left of screen and wraps text so does not overlap name */
+  margin: 0px 15px 15px 0px; 
 }
-
 .circle-icon {
   width:75px;
-  border-radius: 50%; 
+  border-radius: 50%; /* makes a circular icon with a square picture */
 }
 
 h2{
@@ -78,3 +78,4 @@ footer{
   text-align:center;
   font-family:Arial, serif;
 }
+
