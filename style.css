@@ -12,6 +12,7 @@ line-height:1px;
 .circle-icon {
   width:75px;
   border-radius: 50%; 
+  align:left; /* this pushes the icon to the left of secure next to the name */
 }
 
 h2{
@@ -30,12 +31,12 @@ nav{
   font-size:20px;
   padding-top:-10px;
 }
-
+/* this class is used to adjust position of the nav bar so it is in line with name */
 .navpostion{
   position:relative;
   left:10px;
   top:-10px;
-}
+} 
 
 p,li,h3
 {
